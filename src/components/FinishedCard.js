@@ -10,8 +10,8 @@ export default ({ finished, url, id }) => finished ? (
     <p><a href="https://coralproject.net/products/ask.html" target="_blank">Ask</a> has an API for creating forms and this
     is an experiment for an alternative way of creating forms. You can <a href="https://github.com/impronunciable/askme" target="_blank">check out the code</a> and make your on version.</p>
     <div class="card-actions">
-      <a href={url} class="btn large primary">View the form page</a>
-      <a href={`${config.cayBaseUrl}/forms/${id}`} class="btn large">Edit the form</a>
+      <a href={url} class="btn large primary" target="_blank">View the form page</a>
+      <a href={`${config.cayBaseUrl}/forms/${id}`} class="btn large" target="_blank">Edit the form</a>
     </div>
     <p>Also this is how it looks inside an iframe:</p>
     <iframe src={url} width="80%" height="500" style={styles.iframe} frameBorder="0" />

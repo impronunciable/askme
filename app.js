@@ -648,12 +648,12 @@
 	      { 'class': 'card-actions' },
 	      (0, _preact.h)(
 	        'a',
-	        { href: url, 'class': 'btn large primary' },
+	        { href: url, 'class': 'btn large primary', target: '_blank' },
 	        'View the form page'
 	      ),
 	      (0, _preact.h)(
 	        'a',
-	        { href: _config2.default.cayBaseUrl + '/forms/' + id, 'class': 'btn large' },
+	        { href: _config2.default.cayBaseUrl + '/forms/' + id, 'class': 'btn large', target: '_blank' },
 	        'Edit the form'
 	      )
 	    ),
